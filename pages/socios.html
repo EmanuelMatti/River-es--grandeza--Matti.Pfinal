@@ -13,21 +13,23 @@
     
     <header>
         <h1><a href="../index.html"></a>River Plate</h1>
+        <nav>
+            <ul class="menu">
+                <li class="item"><a class="item" href="../index.html">Inicio</a></li>
+                <li class="item"><a class="item" href="../pages/noticias.html">Noticias</a></li>
+                <li class="item"><a class="item" href="../pages/plantel.html">Plantel</a></li>
+                <li class="item"><a class="item" href="../pages/copas.html">Copas</a></li>
+            </ul>
+    
+        </nav>
+    
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../pages/noticias.html">Noticias</a></li>
-            <li><a href="../pages/plantel.html">Plantel</a></li>
-            <li><a href="../pages/copas.html">Copas</a></li>
-        </ul>
 
-    </nav>
-
-    <main>
-
-        <form style="border: 2px solid cells;">
+    <main class="mainSocios">
+        <form class="formulario" style="border: 2px solid cells;">
+            
+        <h2 class="nomForm">INGRESA TUS DATOS</h2>
             <div>
             <label for="Nombre">Nombre</label>
                 <input type="text" id="Nombre" placeholder="Escribir nombre aqui" >
@@ -58,19 +60,21 @@
                 <h4>ingrese consultas</h4>
                 <textarea name="escribit consluta" id="escribir consulta" cols="30" rows="10">escribir consulta</textarea>
             </section>
-                
-            <section>   
-                <label for="enviar formulario"></label>
-                <input type="submit" value="enviar fomrulario">
-                        
-                <label for="borrar formulario"></label>   
-                <input type="submit" value="borrar fomrulario">
-            </section>  
-                
+
             <section>
                 <div>Acepta términos y condiciones</div>
                 <input type="checkbox" name="acepta" value="1" />
-            </section>                        
+            </section>
+                
+            <section>   
+                <label for="enviar formulario"></label>
+                <input type="submit" value="enviar formulario">
+                        
+                <label for="borrar formulario"></label>   
+                <input type="submit" value="borrar formulario">
+            </section>  
+                
+                                   
     
         </form>
     </main>

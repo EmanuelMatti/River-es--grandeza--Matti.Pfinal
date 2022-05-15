@@ -5,10 +5,13 @@
 }
 
 header {
+    background-image: url(https://th.bing.com/th/id/OIP.cXImD8np5-O3vhAXaowkzAHaDw?pid=ImgDet&rs=1);
+    background-size: cover;
     background-color: rgb(10, 1, 1);
-    height: 125px;
-    display: flex;
-    flex-direction: column;
+    height: auto;
+    height: 300px;
+    border: 4x solid rgb(148, 1, 1);
+   
   
 }    
 h1 {
@@ -18,11 +21,24 @@ h1 {
 nav ul {
     background-color: rgb(10, 1, 1);
     list-style-type: none;
-
+    
+}
+nav {
+    height: 50px;
+    background-image: url(https://th.bing.com/th/id/OIP.cXImD8np5-O3vhAXaowkzAHaDw?pid=ImgDet&rs=1);
+    background-size: auto;
+    
 }
 
+li {
+
+    text-align: center;
+    padding-bottom: 10px;
+}
 a {
+    text-decoration: none;
     list-style: none;
+    font-size: 25px;
     
 }
 main {
@@ -33,7 +49,8 @@ p {
     text-transform: uppercase;
 }
 h2 {
-    color: white;
+    background-color: white;
+    color: black;
     text-transform: uppercase;
 
 }
@@ -45,7 +62,11 @@ h4 {
     color: white;
     text-transform: uppercase;
 }
+.container {
+    text-align: center;
+}
 .item {
+    
     background-color: rgb(10, 1, 1);
     border: 1px solid black;
     text-decoration: none;
@@ -55,8 +76,59 @@ h4 {
     
 }
 .menu {
-  
+   display: flex;
+   justify-content: space-around;
+ 
 
+}
+
+.seccionCopas {
+    text-align: center;
+    border-radius: 2px black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(201, 38, 38);
+}
+.articleCopas {
+    background-color: black;
+    padding: 2rem 0rem;
+}
+
+.tableLali {
+    background-color: black;
+    color: white;
+    width: 60%;
+    padding: 0%;
+    margin-left: 10rem;
+       
+}
+.table {
+    background-color: white;
+    margin-top: 0%;
+    padding: 0rem 2rem;
+}
+h3 {
+    padding: 1rem 0rem;
+}
+.nombreTabla {
+    border: 2px dashed black;
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 40px;
     
 }
+.formulario {
+    background-color: black;
+    color: wheat;
+    border: 2px solid white;
+    margin: 2rem 5rem;
+    text-align: center;
+}
+.nomForm {
+    border: 2px solid rgb(2, 2, 2);
+}
+.mainSocios {
+    background-color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
