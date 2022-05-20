@@ -8,8 +8,7 @@ header {
     background-image: url(https://th.bing.com/th/id/OIP.cXImD8np5-O3vhAXaowkzAHaDw?pid=ImgDet&rs=1);
     background-size: cover;
     background-color: rgb(10, 1, 1);
-    height: auto;
-    height: 300px;
+    height: 100px;
     border: 4x solid rgb(148, 1, 1);
    
   
@@ -24,7 +23,7 @@ nav ul {
     
 }
 nav {
-    height: 50px;
+   
     background-image: url(https://th.bing.com/th/id/OIP.cXImD8np5-O3vhAXaowkzAHaDw?pid=ImgDet&rs=1);
     background-size: auto;
     
@@ -78,7 +77,7 @@ h4 {
 .menu {
    display: flex;
    justify-content: space-around;
- 
+    align-items: space-between;
 
 }
 
@@ -130,5 +129,11 @@ h3 {
 .mainSocios {
     background-color: white;
 }
-
+.pe {
+     color: black;
+}
+.table {
+     background-color: black;
+     width: 50%;
+  }
 /*# sourceMappingURL=style.css.map */
