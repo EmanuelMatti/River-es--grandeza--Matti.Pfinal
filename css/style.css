@@ -1,48 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+body {
+    background-color: rgb(48, 46, 46);
+}
 
-header {
-    background-image: url(https://th.bing.com/th/id/OIP.cXImD8np5-O3vhAXaowkzAHaDw?pid=ImgDet&rs=1);
-    background-size: cover;
-    background-color: rgb(10, 1, 1);
-    height: 100px;
-    border: 4x solid rgb(148, 1, 1);
-   
   
-}    
+.header {
+    background-color: rgb(116, 28, 28);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding:  5px 10%;
+}
+.heaeder .logo img {
+    height: 70px;
+    width: auto;
+}
+.header .logo {
+    cursor: pointer;
+}
+.header .navLinks {
+    list-style: none;
+}
+.header .navLinks li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .navLinks a {
+    font-size: 70px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.header .navLinks li:hover {
+    transform: scale(1.1);
+}
+
+
+
 h1 {
     color: white;
     font-size: 50px;
 }
-nav ul {
-    background-color: rgb(10, 1, 1);
-    list-style-type: none;
-    
-}
-nav {
-   
-    background-image: url(https://th.bing.com/th/id/OIP.cXImD8np5-O3vhAXaowkzAHaDw?pid=ImgDet&rs=1);
-    background-size: auto;
-    
-}
 
-li {
 
-    text-align: center;
-    padding-bottom: 10px;
-}
-a {
-    text-decoration: none;
-    list-style: none;
-    font-size: 25px;
-    
-}
-main {
-    background-color:  rgb(10, 1, 1);
-}
+
 p {
     color: white;
     text-transform: uppercase;
