@@ -10,21 +10,48 @@
 
 </head>
 <body>
-    <header>
-
-        <nav class="menu">
-          <h1>RIVER PLATE</h1>
-          <ul>
-              <li class="item"><a class="item" href="./pages/noticias.html">NOTICIAS</a></li>
-              <li class="item"><a class="item" href="./pages/plantel.html">PLANTEL</a></li>
-              <li class="item"><a class="item" href="./pages/copas.html">COPAS</a></li>
-              <li class="item"><a class="item" href="./pages/socios.html">SOCIOS</a></li>
-          </ul>
-
+  <div class="container-sm-fluid">
+            
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img src="img/Escudo_Riber_Plate.jpg" class="img-fluid" width="70px" height="60px" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/plantel.html">Plantel</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Competencias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./pages/copas.html">Copa libertadores</a></li>
+                      <li><a class="dropdown-item" href="./pages/copas.html">Copa Argetina</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./pages/socios.html">Hazte socio</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled"></a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
         </nav>
-        
-
+    
     </header>
+</div>    
     <hr>
 
     <main>
@@ -52,7 +79,7 @@
         </div>
         <hr>
 
-        <div class="container p-3 m-2" >
+        <div class="container p-1 m-1" >
             <div class="row">
               <div class="col">
                   <h3>REFORMAS</h3>
@@ -80,63 +107,53 @@
       <table class="table table-dark table-striped">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">POS</th>
+            <th scope="col">EQUIPOS</th>
+            <th scope="col">PUNTOS</th>
+            <th scope="col">CLASIFICACION</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>RIVER</td>
+            <td>39</td>
+            <td>LIBERTADORES</td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>RACING</td>
+            <td>39</td>
+            <td>LIBERTADORES</td>
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <td colspan="2">UNION</td>
+            <td>35</td>
           </tr>
           <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <th scope="row">4</th>
+            <td>HURACAN</td>
+            <td>34</td>
+            <td>LIBERTADORES</td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <th scope="row">5</th>
+            <td>COLON</td>
+            <td>32</td>
+            <td>SUDAMERICANA</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <th scope="row">6</th>
+            <td>DYF</td>
+            <td>32</td>
+            <td>SUDAMERICANA</td>
           </tr>
           <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <th scope="row">7</th>
+            <td>9/12</td>
+            <td>30</td>
+            <td>MADRID</td>
           </tr>
         </tbody>
       </table>
@@ -146,7 +163,7 @@
 
     <div class="b-example-divider"></div>
       
-      <div class="container">
+      <div class="container1">
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Inicio</a></li>

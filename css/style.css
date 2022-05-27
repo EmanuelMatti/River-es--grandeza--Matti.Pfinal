@@ -7,48 +7,17 @@
 }
 body {
     background-color: rgb(48, 46, 46);
+    background-image: url(https://4.bp.blogspot.com/-dr6MLCRRb2c/TwcNPdn6jUI/AAAAAAAADU4/xqy_0D9xARs/s640/Escudo_Riber_Plate.jpg);
+    background-size: cover;
 }
-
-  
-.header {
-    background-color: rgb(116, 28, 28);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 85px;
-    padding:  5px 10%;
+.container {
+    background-color: black;
 }
-.heaeder .logo img {
-    height: 70px;
-    width: auto;
-}
-.header .logo {
-    cursor: pointer;
-}
-.header .navLinks {
-    list-style: none;
-}
-.header .navLinks li {
-    display: inline-block;
-    padding: 0 20px;
-}
-.header .navLinks a {
-    font-size: 70px;
-    color: blanchedalmond;
-    text-decoration: none;
-}
-.header .navLinks li:hover {
-    transform: scale(1.1);
-}
-
-
 
 h1 {
     color: white;
     font-size: 50px;
 }
-
-
 
 p {
     color: white;
@@ -58,11 +27,17 @@ h2 {
     background-color: white;
     color: black;
     text-transform: uppercase;
+    text-align: center;
 
 }
 h3 {
     color: white;
     text-transform: uppercase;
+}
+.m-pases{
+    border: 2px solid red;
+    text-align: center;
+    width: 50%;
 }
 h4 {
     color: white;
@@ -71,23 +46,16 @@ h4 {
 .container {
     text-align: center;
 }
-.item {
-    
-    background-color: rgb(10, 1, 1);
-    border: 1px solid black;
-    text-decoration: none;
-    text-transform: uppercase;
-    height: 10px;
-    width: 10px;
-    
+.noticias {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-.menu {
-   display: flex;
-   justify-content: space-around;
-    align-items: space-between;
-
+.noticias .noticias-art {
+    background-color: black;
+    text-align: center;
+   
 }
-
 .seccionCopas {
     text-align: center;
     border-radius: 2px black;
@@ -116,6 +84,15 @@ h4 {
 h3 {
     padding: 1rem 0rem;
 }
+.container2{
+    width: 300px;
+    height: 200px;
+}
+.item1 {
+    background-color: rgb(116, 43, 43);
+    border-radius: 3px;
+    
+}
 .nombreTabla {
     border: 2px dashed black;
     width: 90%;
@@ -135,12 +112,51 @@ h3 {
 }
 .mainSocios {
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 .pe {
      color: black;
+     text-align: justify;
+     background-color: greenyellow;
 }
 .table {
      background-color: black;
      width: 50%;
+     
   }
+/*mediaquaries*/
+@media (min-width:576){
+    .header{
+        background-color: rgb(119, 118, 118);
+        
+    }
+
+
+}
+
+
+
+
+/*tranformaciones*/
+
+.container2{
+    width: 70%;
+    height: 70%;
+    background-color: rgb(116, 43, 43);
+}
+.item1 {
+    background-color: rgb(116, 43, 43);
+    border-radius: 3px;
+    pad: 0 10%;
+}
+.item1:hover {
+    transform: translateX(25%);
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
 /*# sourceMappingURL=style.css.map */
