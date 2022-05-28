@@ -17,6 +17,7 @@ body {
 h1 {
     color: white;
     font-size: 50px;
+    background-color: tomato;
 }
 
 p {
@@ -126,14 +127,35 @@ h3 {
      
   }
 /*mediaquaries*/
-@media (min-width:576){
-    .header{
+@media (min-width: 576px){
+    body{
         background-color: rgb(119, 118, 118);
+        display: flex;
+        flex-wrap: wrap;
+        text-transform: capitalize;
         
     }
-
+    aside{
+        background-color: brown;
+        border: 1px dashed black;
+    }
 
 }
+@media (min-width: 992px){
+    body{
+        background-color: rgb(165, 164, 164);
+        
+    }
+        
+}
+@media (min-width: 1200px){
+    body {
+        background-color: rgb(48, 46, 46);
+        background-image: url(https://4.bp.blogspot.com/-dr6MLCRRb2c/TwcNPdn6jUI/AAAAAAAADU4/xqy_0D9xARs/s640/Escudo_Riber_Plate.jpg);
+        background-size: cover;
+    }
+}
+    
 
 
 
