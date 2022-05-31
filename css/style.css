@@ -123,8 +123,10 @@ h3 {
 }
 .table {
      background-color: black;
-     width: 50%;
      
+  }
+  .header {
+      width: auto;
   }
 /*mediaquaries*/
 @media (min-width: 576px){
@@ -151,8 +153,7 @@ h3 {
 @media (min-width: 1200px){
     body {
         background-color: rgb(48, 46, 46);
-        background-image: url(https://4.bp.blogspot.com/-dr6MLCRRb2c/TwcNPdn6jUI/AAAAAAAADU4/xqy_0D9xARs/s640/Escudo_Riber_Plate.jpg);
-        background-size: cover;
+        
     }
 }
     
@@ -174,6 +175,8 @@ h3 {
 }
 .item1:hover {
     transform: translateX(25%);
+    translate: 2s;
+    
 }
 
 img:hover {
